@@ -1,0 +1,10 @@
+<div class="form-group">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-secondary" [class.active]="size === 'small'"
+      (click)="setSize('small')">small</button>
+    <button type="button" class="btn btn-secondary" [class.active]="size === 'medium'"
+      (click)="setSize('medium')">medium</button>
+    <button type="button" class="btn btn-secondary" [class.active]="size === 'large'"
+      (click)="setSize('large')">large</button>
+  </div>
+</div>

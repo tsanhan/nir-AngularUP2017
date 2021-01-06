@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nir-AngularUP2017';
+  /**
+   *   AbstractControl
+   *   /     |      \
+   * Form   Form    Form
+   * Group  Control Array
+   *
+   * Form Control Instrance => FormControl Directive => Form Element (DOM)
+   *
+   *
+   */
+
+  constructor() {
+
+
+  }
+
 }
